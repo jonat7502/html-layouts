@@ -4,46 +4,40 @@
         <meta charset="UTF-8">
         <title>Box Model</title>
         <style type="text/css">
+
          .Box { 
          width: 220px;
          height: 150px;
          background-color: #81BBC9;
-          margin: 10px;
-   }
+         margin: 10px;
+         border-radius: 10px;
+         display: inline-block;
+         font-size: 16px;
+     }
+   
+       
+     #container {  
 
-        #Box1 { width:300px;   
-        height: 300px;
-        background-color:#81BBC9;
-        margin: 50px;
-        border: 10px solid; #000;
-        border-radius: 30px }
-
-        #Box2 { width:300px;   
-        height: 300px;
-        background-color:#81BBC9;
-        margin: 50px;
-        border: 20px solid; red;
-        border-radius: 200px }
-
-        #container { margin-right: auto; 
+     margin-right: auto; 
      margin-left: auto; 
      width: 960px;
-     height: 600px;
      background-color: #AA4639;
      padding: 10px;
-     border-radius: 10px }
-
-                    
+     border-radius: 10px;
+     display: inline-block;
+     font-size: 0; } 
+                
 
         </style>
     </head>
     <body>
 
-        
-        <div class ="Box"> </div>
-         <div id="Box1"> </div>
-         <div id="Box2" > </div>
-         <div id="Box3" > </div>
-         <div id="container"> </div>
+        <div id= "container">
+        <div class ="Box"></div>
+         <div class="Box"></div>
+         <div class="Box"></div>
+         <div class="Box"></div>
+         </div>
+         
     </body>
 </html>
